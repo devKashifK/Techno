@@ -1,0 +1,110 @@
+
+@keyframes movement{
+    0% {
+top: 23%;
+    }
+     25%,50% {
+        top: 24%;
+    }
+    50%, 100% {
+        top: 23%;
+    }
+}
+@keyframes movement2{
+    0% {
+top: 11%;
+    }
+     25%,50% {
+        top: 12%;
+    }
+    50%, 100% {
+        top: 11%;
+    }
+}
+@keyframes movement1{
+    0%{
+        top: 05%;
+    }
+    25%, 50%{
+        top: 06%;
+    }
+    50%, 100% {
+        top: 05%;
+    }
+}
+@keyframes movement3 {
+    0%{
+        top: 44%;
+    }
+    25%, 50%{
+        top: 45%;
+    }
+    50% , 100%{
+        top: 44%;
+    }
+    
+}
+@keyframes circleRotation{
+    0%{
+      left: 54%;
+    }
+    25% , 50%{
+       left:55%
+    }
+    50% , 100%{
+        left:54%
+    }
+}
+@keyframes circleRotation2{
+    0%{
+      left: 41%;
+    }
+    25% , 50%{
+       left:40%
+    }
+    50% , 100%{
+        left:41%
+    }
+}
+@keyframes trainglemovement {
+    0%{
+        bottom: 12%;
+    }
+    25%, 50%{
+        bottom: 14%;
+    }
+    50% , 100%{
+        bottom: 12%;
+    }
+    
+}
+
+@keyframes orbit{
+    0%{
+
+    }
+    6.25% , 12.5%{
+        transform: rotate(45deg); 
+    }
+    18.75% , 25%{
+        transform: rotate(90deg); 
+    }
+    31.25%, 37.5%{
+        transform: rotate(135deg); 
+    }
+    43.75% , 50%{
+        transform: rotate(180deg); 
+    }
+    56.25% , 62.5%{
+        transform: rotate(220deg); 
+    }
+    68.75% , 75%{
+        transform: rotate(265deg); 
+    }
+    81.25% , 87.5%{
+        transform: rotate(315deg); 
+    }
+    93.75% , 100%{
+        transform: rotate(360deg); 
+    }
+}

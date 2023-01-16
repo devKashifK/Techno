@@ -1,0 +1,15 @@
+.about__Hero {
+  width: 100%;
+  text-align: center;
+  background-image: url(/images/darkbg-1.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.about__page {
+  background-color: #f8f8f8;
+}

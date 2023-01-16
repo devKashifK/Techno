@@ -1,0 +1,131 @@
+.teams {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px 0px;
+    gap: 50px;
+    position: relative;
+  }
+  .teams__container {
+    display: flex;
+    width: 83%;
+    height: auto;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .teams__box {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    box-sizing: border-box;
+    margin: auto;
+  }
+  .team__member__image {
+    object-fit: cover;
+    width: 400px;
+    height: 300px;
+  }
+  .teams__member__name {
+    color: var(--darkBlue);
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .team__member__desgination {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .social__links {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #29394091;
+    gap: 20px;
+    color: var(--skyBlue);
+    font-size: 32px;
+    top: 0;
+    opacity: 0;
+    transition: opacity 400ms;
+  }
+  .social__links__active{
+    opacity: 1;
+    transition: opacity 400ms;
+  }
+  .teams__circle {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    border-radius: 50%;
+    border: 10px solid #5151e39c;
+    top: -1%;
+    right: 05%;
+    animation: border__circle 2s infinite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .teams__square {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 19%;
+    background-color: var(--skyBlue);
+    transform: rotate(-15deg);
+    left: 37%;
+    animation: square 2s infinite;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .zig-zag{
+    border: none;
+    width: 60%;
+    margin: auto;
+    margin-top: 7%;
+    height: 30px;
+    background: linear-gradient(135deg, #E5E5E5 20%, transparent 25%) -20px 0,
+    linear-gradient(225deg, #E5E5E5 25%, transparent 20%) -20px 0,
+    linear-gradient(315deg, #E5E5E5 25%, transparent 20%),
+    linear-gradient(45deg, #E5E5E5 25%, transparent 20%);
+    background-size: 30px 30px;
+    background-color: #1A85FD;
+  }
+
+  @keyframes square {
+    0%{
+      top: 19%;
+    }
+    25% , 50%{
+      top: 21%;
+    }
+    50%, 100%{
+      top: 19%;
+    }
+  }
+  @keyframes square__mobile {
+    0%{
+      left: 18%;
+    }
+    25% , 50%{
+      left: 20%;
+    }
+    50%, 100%{
+      left: 18%;
+    }
+  }
+  @keyframes border__circle {
+    0%{
+      top: -1%;
+    }
+    25%,50%{
+      top: 2%;
+    }
+    50%,100%{
+      top: -1%;
+    }
+    
+  }
